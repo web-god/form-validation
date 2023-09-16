@@ -1,0 +1,53 @@
+body{
+    background-color:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#form-container{
+   
+    padding:80px;
+    background-color: rgb(255, 255, 255);
+   
+    
+    
+}
+
+#form-container h1{
+
+
+    text-align: center;
+    
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form input{
+    padding: 15px ;
+    width:200px;
+    margin:10px 0px;
+}
+
+#form button{
+    padding:13px;
+    margin-top: 20px;
+    width:240px;
+    background-color: #3498db;
+    color:white;
+    border: none;
+}
+
+.error{
+    color:red;
+    margin:0px;
+   
+    
+    
+}
